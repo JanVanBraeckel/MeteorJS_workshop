@@ -1,0 +1,8 @@
+<template name="menu">
+    <p>
+        <a href="{{pathFor 'hello'}}">Home</a>
+        <a href="{{pathFor 'todos'}}">Todos</a>
+        {{#if currentUser}}<a href="{{pathFor 'privatetodos'}}">Private todos</a>{{/if}}
+        {{> loginButtons}}
+    </p>
+</template>

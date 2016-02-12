@@ -1,0 +1,7 @@
+<template name="privatetodoItem">
+    <li>
+        <button class="delete">x</button>
+        <input type="checkbox" checked="{{checked}}" class="toggleChecked">
+        <span class="{{#if checked}}checked{{/if}}">{{text}}</span>
+    </li>
+</template>

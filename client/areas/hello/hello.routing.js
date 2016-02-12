@@ -1,0 +1,4 @@
+Router.route('hello',
+    {
+        path: '/'
+    });

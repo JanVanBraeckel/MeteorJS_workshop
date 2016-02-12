@@ -1,0 +1,8 @@
+<template name="layout">
+    {{> menu}}
+    <h1>Welcome to Meteor!</h1>
+    {{#unless connected}}
+        <b>NO CONNECTION TO SERVER!!!</b>
+    {{/unless}}
+    {{> yield}}
+</template>

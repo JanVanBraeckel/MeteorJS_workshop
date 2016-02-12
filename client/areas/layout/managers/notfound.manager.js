@@ -1,0 +1,1 @@
+Template.notfound.onRendered(() => Router.go('hello'));

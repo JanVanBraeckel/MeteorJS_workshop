@@ -1,0 +1,8 @@
+<template name="privatetodos">
+    <form class="newTodo">
+        <input type="text" id="todoText" placeholder="Type your todo here">
+    </form>
+    <ul>
+        {{#each todoItems}} {{> privatetodoItem}} {{/each}}
+    </ul>
+</template>
